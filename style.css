@@ -1,0 +1,267 @@
+*{ /* для всех тегов */
+    box-sizing: border-box;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    padding-top:20px ;
+}
+
+header ul{
+    border-bottom: 1px solid #000;
+    padding-bottom: 30px;
+}
+ .header__inner{
+     display: flex;
+     
+ }
+ .menu__list{
+     display: flex;
+     list-style-type : none;
+     color: #828282;
+     font-family: 'Hind Siliguri', sans-serif;
+     text-align:center;
+     
+ }
+ .menu__list li{
+    margin-right: 150px;
+    
+     margin-left: auto;
+    
+ }
+ .menu__list a{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    font-weight: 700;
+     
+
+ }
+ .top{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    padding-top:20px ;
+ }
+p{
+    display: inline;
+    float: left;
+}
+.denis{
+    margin-top: 2px;
+    margin-right: 300px;
+    font-size: 47px;
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.med_info{
+    margin-top: 68px;
+    margin-right: 328px;
+    font-weight: lighter;
+    text-align: left;
+    margin-left: 120px;
+    
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Hind Siliguri', sans-serif;
+
+/* Black */
+
+    color: #070707;
+}
+.switch{
+    margin-top: 70px;
+    transform: rotate(-90deg);
+    margin-left: 50px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.onem{
+    margin-top: 90px;
+    background: #F6F6F6;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.infnem{
+    text-align: center;
+    font-size: 34px;
+    line-height: 42px;
+    font-family: 'Hind Siliguri', sans-serif;
+    
+}
+.osntext{
+
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.osninfo{
+
+    margin-top: -15px;
+    
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 50px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 300;
+}
+.skills{
+   margin-top: 150px;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.glavinf{
+    color: #070707;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.glavinf_down{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-top: 60px;
+}
+.sredi{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.eres{
+    
+    background-color: #F6F6F6;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.bool{
+    margin-top: 150px;
+    color: #070707;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.up_pic{
+    margin-top: 47px;
+    text-align: center;
+}
+.down_text_uppic{
+margin-top: 35px;
+font-family: Gilroy-Medium;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+text-decoration-line: underline;
+font-family: 'Hind Siliguri', sans-serif;
+color: #070707;
+font-weight: 500;
+}
+.med_pic{
+    margin-top: 110px;
+    text-align: center;
+}
+.down_text_medpic{
+    margin-top: 35px;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #070707;
+    font-weight: 500;  
+}
+.down_pic{
+    margin-top: 110px;
+    text-align: center;
+}
+.down_text_downpic{
+    margin-top: 35px;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #070707;
+    font-weight: 500;  
+}
+.end{
+    background-color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.up_word{
+font-size: 34px;
+line-height: 42px;
+text-align: center;
+color: #070707;
+font-weight: 700; 
+font-family: 'Hind Siliguri', sans-serif;
+}
+.up_word_end{
+margin-top: 25px;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #070707;
+font-family: 'Hind Siliguri', sans-serif;
+font-weight: 500; 
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.button_dec{
+    background: #070707;
+    color: #FFFFFF;
+    padding: 8px;
+    border-radius: 20px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+.end_end{
+    text-align:center;
+    
+    
+}
+.end_end li{
+    margin-top: 80px;
+    margin-right: 50px;
+    display:inline-block;
+}
+.endx3{
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    font-family: 'Hind Siliguri', sans-serif;
+}
